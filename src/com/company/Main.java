@@ -21,7 +21,7 @@ public class Main {
 
         /*
          * for even index: (index / 2) + mod
-         * for odd index:  (index * 2) - mod
+         * for odd index:  (index * index) - mod
          */
         int[] arrC = getFilledArray(arrSize, userInput, (index, mod) -> {
             if (index % 2 == 0) {
